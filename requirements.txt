@@ -1,0 +1,17 @@
+####### requirements.txt #######
+# Use command below to install packages required for this project
+# pip install -r requirements.txt
+
+###### Requirements without Version Specifiers ######
+jupyter
+#numpy
+#pandas
+#scipy
+#matplotlib
+#seaborn
+
+###### Requirements with Version Specifiers ######
+#pytz>=2011k
+
+###### Refer to other requirements files ######
+#-r other-requirements.txt
