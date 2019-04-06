@@ -5,7 +5,7 @@
 ###### Requirements without Version Specifiers ######
 jupyter
 #numpy
-#pandas
+pandas
 #scipy
 #matplotlib
 #seaborn
