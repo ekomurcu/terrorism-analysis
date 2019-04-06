@@ -7,8 +7,8 @@ jupyter
 #numpy
 pandas
 #scipy
-#matplotlib
-#seaborn
+matplotlib
+seaborn
 
 ###### Requirements with Version Specifiers ######
 #pytz>=2011k
