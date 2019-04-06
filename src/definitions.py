@@ -19,9 +19,17 @@ def init():
     # DIR_DATA points to where input data files are located
     global DIR_DATA
     DIR_DATA = Path('data')
+    # DIR_HAPP and DIR_SUIC are directory to input data of respective data sets
+    global DIR_HAPP
+    DIR_HAPP = DIR_DATA / 'happiness'
+    global DIR_SUIC
+    DIR_SUIC = DIR_DATA / 'suicide'
 
     global DIR_SCRIPT
     DIR_SCRIPT = Path('sh')
+
+    global FILE_REQS
+    FILE_REQS = DIR_SRC.resolve().parent / "requirements.txt"
 
     if Path.cwd() is not DIR_SRC:
         # Changes active directory to project directory
