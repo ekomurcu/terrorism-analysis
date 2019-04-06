@@ -28,6 +28,9 @@ def init():
     global DIR_SCRIPT
     DIR_SCRIPT = Path('sh')
 
+    global FILE_REQS
+    FILE_REQS = DIR_SRC.resolve().parent / "requirements.txt"
+
     if Path.cwd() is not DIR_SRC:
         # Changes active directory to project directory
         os.chdir(DIR_SRC)
