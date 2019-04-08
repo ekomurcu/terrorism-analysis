@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='cs210-project2-ekomurcu',
-    version='0.0.1',
+    version='0.0.2',
     author=[
         "Ali Yasin Akalın",
         "Bilge Bahadır Berber",
@@ -21,7 +21,7 @@ setuptools.setup(
     description="",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ekomurcu/Data-Analysis",
+    url="https://github.com/ekomurcu/Suicide-Analysis",
     packages=setuptools.find_packages(),
     classifiers=[
         # List of every classifier: https://pypi.org/classifiers/
